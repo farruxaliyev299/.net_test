@@ -1,0 +1,18 @@
+﻿@model FirstWebAppTest.Models.Student;
+@using FirstWebAppTest.Models;
+
+@{  
+    ViewBag.Title = "Index";  
+    var students = ViewBag.Message;  
+}
+
+<html>
+    <head>
+        <title>Oz1</title>
+    </head>
+    <body>
+        <ul>
+            <li style="font-size:40px;">ID: @Model.Id , FullName: @Model.FullName</li>
+        </ul>
+    </body>
+</html>
